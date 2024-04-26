@@ -1,8 +1,20 @@
+# Flutter/Dart/Pub related
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+**/doc/api/
+ios/Flutter/.last_build_id
+ios/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.g.dart
+*.freezed.dart
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
